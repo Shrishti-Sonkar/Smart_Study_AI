@@ -1,78 +1,209 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+📘 SmartStudy AI
+Waste-Aware & Hallucination-Resistant Learning Assistant
+🚀 Overview
 
-## Project info
+SmartStudy AI is an intelligent student learning assistant that reduces algorithmic waste, LLM hallucinations, and carbon footprint by routing queries to the right AI model at the right time.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Unlike traditional AI chatbots that rely on a single large model, SmartStudy AI uses a multi-LLM architecture combined with a novel WASTE-SCOPE engine to ensure efficient, accurate, and sustainable AI usage.
 
-## How can I edit this code?
+❗ Problem Statement
 
-There are several ways of editing your application.
+Modern AI-powered educational systems suffer from:
 
-**Use Lovable**
+Excessive and unnecessary computation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Overuse of large language models
 
-Changes made via Lovable will be committed automatically to this repo.
+Hallucinated academic answers
 
-**Use your preferred IDE**
+High cloud cost and energy consumption
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Growing carbon emissions from data centers
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Simple questions often trigger the same expensive pipelines as complex ones, leading to algorithmic waste.
 
-Follow these steps:
+💡 Solution
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+SmartStudy AI introduces a waste-aware AI pipeline that:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Detects unnecessary computation
 
-# Step 3: Install the necessary dependencies.
-npm i
+Prevents hallucinations before they occur
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Minimizes energy and carbon usage
 
-**Edit a file directly in GitHub**
+Improves response speed and accuracy
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🧠 Core Innovations
+1️⃣ WASTE-SCOPE (Algorithmic Waste Detection)
 
-**Use GitHub Codespaces**
+A core intelligence layer that:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Analyzes query complexity
 
-## What technologies are used for this project?
+Detects repeated or unnecessary AI calls
 
-This project is built with:
+Selects the most efficient model
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Tracks compute and token usage
 
-## How can I deploy this project?
+2️⃣ Multi-LLM Intelligent Routing
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Uses three specialized LLMs, each with a clear responsibility:
 
-## Can I connect a custom domain to my Lovable project?
+Model	Role
+T5	Fast factual & recall-based queries
+Mistral	Conceptual explanations
+LLaMA	Deep reasoning & answer verification
 
-Yes, you can!
+This avoids using heavyweight models unnecessarily.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+3️⃣ Hallucination Reduction Module
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-=======
-# Smart_Study_AI
-SmartStudy AI is an intelligent learning assistant that routes student queries to the most suitable AI model, reducing hallucinations, cost, and carbon footprint while delivering accurate academic support.
->>>>>>> dbc5af3f9d41b83835f4f8ff46130019bbf4a615
+Reduces hallucinations at the system level using:
+
+Query risk analysis
+
+Confidence scoring
+
+Cross-model verification
+
+Grounding checks
+
+4️⃣ Verified Answer Caching
+
+Once an answer is verified, it is cached to:
+
+Avoid repeated computation
+
+Improve response time
+
+Reduce future hallucinations
+
+Lower carbon emissions
+
+5️⃣ Carbon-Aware AI Execution
+
+By minimizing GPU usage and redundant inference, SmartStudy AI supports:
+
+Sustainable AI
+
+Green computing principles
+
+Responsible cloud usage
+
+🏗️ System Architecture
+
+High-Level Flow:
+
+Student → Frontend → Backend API → WASTE-SCOPE →
+Hallucination Reduction → LLM Router →
+(T5 / Mistral / LLaMA) → Cache → Response
+
+
+Designed to be modular, scalable, and cloud-native.
+
+🧪 Example Use Case
+
+Query: “Explain deadlock in Operating Systems”
+
+Query analyzed by WASTE-SCOPE
+
+Complexity classified as conceptual
+
+Hallucination risk evaluated
+
+Routed to Mistral
+
+Answer verified
+
+Cached for reuse
+
+Returned to student
+
+🛠️ Technologies Used
+AI / ML
+
+T5
+
+Mistral
+
+LLaMA (open-source)
+
+Cloud & Backend (Google-Inspired)
+
+Google Cloud Run (serverless backend)
+
+Firebase Authentication
+
+Firestore / BigQuery (logs & cache)
+
+Vertex AI (conceptual model orchestration)
+
+Frontend
+
+Web-based student interface
+
+🌍 Sustainability Impact
+
+Reduced unnecessary GPU usage
+
+Lower cloud energy consumption
+
+Reduced carbon emissions
+
+Encourages responsible AI deployment
+
+📊 Metrics Tracked
+
+Number of avoided LLM calls
+
+Token usage per query
+
+Cache hit rate
+
+Hallucination reduction rate
+
+Estimated energy & carbon savings
+
+🧩 MVP Features
+
+Student Q&A interface
+
+Query complexity detection
+
+Multi-LLM routing
+
+Hallucination prevention
+
+Answer caching
+
+Performance logging
+
+🔮 Future Scope
+
+Carbon emission estimator per query
+
+Retrieval-Augmented Generation (RAG)
+
+Teacher-verified answers
+
+Multilingual academic support
+
+Adaptive learning analytics
+
+🎓 Why This Project Matters
+
+SmartStudy AI demonstrates that:
+
+Smarter systems, not bigger models, are the future of AI.
+
+It aligns with:
+
+Sustainable computing
+
+Responsible AI
+
+Cost-efficient cloud design
+
+Real-world educational needs
