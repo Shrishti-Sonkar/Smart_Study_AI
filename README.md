@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Lovable project
 
 ## Project info
@@ -71,3 +72,7 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+=======
+# Smart_Study_AI
+SmartStudy AI is an intelligent learning assistant that routes student queries to the most suitable AI model, reducing hallucinations, cost, and carbon footprint while delivering accurate academic support.
+>>>>>>> dbc5af3f9d41b83835f4f8ff46130019bbf4a615
